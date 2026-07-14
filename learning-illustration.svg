@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" role="img" aria-labelledby="title desc">
+  <title id="title">Learning desk illustration</title>
+  <desc id="desc">A laptop, an open book, and a small plant on a warm colored desk.</desc>
+  <rect width="520" height="420" rx="32" fill="#e9f2f5"/>
+  <circle cx="420" cy="88" r="40" fill="#f4d69e"/>
+  <path d="M60 326h400v30H60z" fill="#d59b55"/>
+  <path d="M105 178h240v148H105z" rx="10" fill="#356779"/>
+  <path d="M123 196h204v110H123z" fill="#f7f4ed"/>
+  <path d="M76 326h300l-28 31H104z" fill="#244d5c"/>
+  <path d="M198 220h54v9h-54zm-29 22h112v9H169zm15 22h82v9h-82z" fill="#e8b86a"/>
+  <path d="M355 286c22-24 70-25 91 0v40h-91z" fill="#fff"/>
+  <path d="M400 286v40" stroke="#d9e1e4" stroke-width="3"/>
+  <path d="M420 184c-2 48-19 65-20 101" fill="none" stroke="#477f8d" stroke-width="7" stroke-linecap="round"/>
+  <path d="M418 210c-32-1-47-18-50-41 29-5 48 10 50 41zm0 19c30-4 48-23 46-48-30-1-48 18-46 48z" fill="#6d9c82"/>
+  <path d="M374 276h53l-7 50h-39z" fill="#c8715b"/>
+</svg>

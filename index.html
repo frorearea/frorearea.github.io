@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A student learning portfolio for Information Systems Engineering.">
+  <title>My Learning Space | Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <p class="eyebrow">Information Systems Engineering</p>
+    <h1>My Learning Space</h1>
+    <p>A small record of what I learn, build, and explore.</p>
+  </header>
+
+  <nav class="site-nav" aria-label="Main navigation">
+    <a class="active" href="index.html" aria-current="page">Home</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="trivia.html">Trivia</a>
+  </nav>
+
+  <div class="page-grid">
+    <aside class="panel sidebar" aria-labelledby="study-links-title">
+      <h2 id="study-links-title">Useful Study Links</h2>
+      <ul class="link-list">
+        <li><a href="https://developer.mozilla.org/" target="_blank" rel="noopener noreferrer">MDN Web Docs <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">W3Schools <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://github.com/skills" target="_blank" rel="noopener noreferrer">GitHub Skills <span aria-hidden="true">↗</span></a></li>
+      </ul>
+    </aside>
+
+    <main class="panel main-content">
+      <span class="section-label">Hello!</span>
+      <h2>Welcome to my website</h2>
+      <div class="intro">
+        <div>
+          <p>I am a student who enjoys learning how technology can solve everyday problems. I am especially interested in web development, data, and simple digital tools.</p>
+          <p>At Ritsumeikan University, my goal is to strengthen my programming skills and learn how to design systems that are useful, clear, and easy to use.</p>
+          <p>Outside class, I like listening to music, exploring new places, and working on small creative projects.</p>
+        </div>
+        <img class="hero-illustration" src="learning-illustration.svg" alt="Illustration of a laptop, a book, and a plant on a desk">
+      </div>
+    </main>
+
+    <aside class="panel contact-panel" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact Me</h2>
+      <form class="contact-form" id="contact-form">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" minlength="2" required autocomplete="name">
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required autocomplete="email">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" minlength="10" required></textarea>
+
+        <button type="submit">Send message</button>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </aside>
+  </div>
+
+  <footer class="site-footer">
+    <p>Created on July 14, 2026</p>
+    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">Visit GitHub <span aria-hidden="true">↗</span></a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

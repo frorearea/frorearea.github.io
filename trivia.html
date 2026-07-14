@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An interactive web development trivia quiz.">
+  <title>My Learning Space | Trivia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <p class="eyebrow">Information Systems Engineering</p>
+    <h1>My Learning Space</h1>
+    <p>A small record of what I learn, build, and explore.</p>
+  </header>
+
+  <nav class="site-nav" aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a class="active" href="trivia.html" aria-current="page">Trivia</a>
+  </nav>
+
+  <div class="page-grid">
+    <aside class="panel sidebar" aria-labelledby="study-links-title">
+      <h2 id="study-links-title">Useful Study Links</h2>
+      <ul class="link-list">
+        <li><a href="https://developer.mozilla.org/" target="_blank" rel="noopener noreferrer">MDN Web Docs <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">W3Schools <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://github.com/skills" target="_blank" rel="noopener noreferrer">GitHub Skills <span aria-hidden="true">↗</span></a></li>
+      </ul>
+    </aside>
+
+    <main class="panel main-content">
+      <span class="section-label">Interactive challenge</span>
+      <h2>Web Development Trivia</h2>
+      <p>Answer all three questions, then check your score.</p>
+      <form id="quiz-form" class="quiz-form">
+        <fieldset>
+          <legend>1. Which language gives a webpage its structure?</legend>
+          <label><input type="radio" name="q1" value="css" required> CSS</label>
+          <label><input type="radio" name="q1" value="html"> HTML</label>
+          <label><input type="radio" name="q1" value="javascript"> JavaScript</label>
+        </fieldset>
+        <fieldset>
+          <legend>2. Which CSS feature is useful for responsive page layouts?</legend>
+          <label><input type="radio" name="q2" value="grid" required> Grid</label>
+          <label><input type="radio" name="q2" value="alert"> Alert</label>
+          <label><input type="radio" name="q2" value="prompt"> Prompt</label>
+        </fieldset>
+        <fieldset>
+          <legend>3. Which language can update page content after a click?</legend>
+          <label><input type="radio" name="q3" value="html" required> HTML</label>
+          <label><input type="radio" name="q3" value="javascript"> JavaScript</label>
+          <label><input type="radio" name="q3" value="css"> CSS</label>
+        </fieldset>
+        <button type="submit">Check my score</button>
+        <button type="reset" class="button-secondary">Try again</button>
+      </form>
+      <div id="quiz-result" class="quiz-result" role="status" aria-live="polite">Your result will appear here.</div>
+    </main>
+
+    <aside class="panel contact-panel" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact Me</h2>
+      <form class="contact-form" id="contact-form">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" minlength="2" required autocomplete="name">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required autocomplete="email">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" minlength="10" required></textarea>
+        <button type="submit">Send message</button>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </aside>
+  </div>
+
+  <footer class="site-footer">
+    <p>Created on July 14, 2026</p>
+    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">Visit GitHub <span aria-hidden="true">↗</span></a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

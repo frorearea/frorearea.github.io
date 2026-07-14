@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A student portfolio of learning projects and achievements.">
+  <title>My Learning Space | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <p class="eyebrow">Information Systems Engineering</p>
+    <h1>My Learning Space</h1>
+    <p>A small record of what I learn, build, and explore.</p>
+  </header>
+
+  <nav class="site-nav" aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a class="active" href="portfolio.html" aria-current="page">Portfolio</a>
+    <a href="trivia.html">Trivia</a>
+  </nav>
+
+  <div class="page-grid">
+    <aside class="panel sidebar" aria-labelledby="study-links-title">
+      <h2 id="study-links-title">Useful Study Links</h2>
+      <ul class="link-list">
+        <li><a href="https://developer.mozilla.org/" target="_blank" rel="noopener noreferrer">MDN Web Docs <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">W3Schools <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://github.com/skills" target="_blank" rel="noopener noreferrer">GitHub Skills <span aria-hidden="true">↗</span></a></li>
+      </ul>
+    </aside>
+
+    <main class="panel main-content">
+      <span class="section-label">Selected work</span>
+      <h2>My Portfolio</h2>
+      <p>These small projects show my progress in technology, design, and teamwork.</p>
+      <div class="table-wrap">
+        <table>
+          <caption>Five learning experiences and digital projects</caption>
+          <thead>
+            <tr>
+              <th scope="col">No.</th>
+              <th scope="col">Name</th>
+              <th scope="col">Description</th>
+              <th scope="col">Date</th>
+              <th scope="col">Type</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>1</td><td>Study Planner</td><td>A weekly schedule designed with HTML and CSS.</td><td>Apr 2026</td><td>Web</td></tr>
+            <tr><td>2</td><td>Data Chart</td><td>A simple chart that presents survey results clearly.</td><td>May 2026</td><td>Data</td></tr>
+            <tr><td>3</td><td>Team Presentation</td><td>A class presentation created with an international team.</td><td>May 2026</td><td>Teamwork</td></tr>
+            <tr><td>4</td><td>Campus Guide</td><td>A prototype page that introduces useful campus places.</td><td>Jun 2026</td><td>Design</td></tr>
+            <tr><td>5</td><td>Web Quiz</td><td>An interactive quiz using JavaScript and user input.</td><td>Jul 2026</td><td>JavaScript</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+    <aside class="panel contact-panel" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact Me</h2>
+      <form class="contact-form" id="contact-form">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" minlength="2" required autocomplete="name">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required autocomplete="email">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" minlength="10" required></textarea>
+        <button type="submit">Send message</button>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </aside>
+  </div>
+
+  <footer class="site-footer">
+    <p>Created on July 14, 2026</p>
+    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">Visit GitHub <span aria-hidden="true">↗</span></a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
